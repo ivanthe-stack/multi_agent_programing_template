@@ -1,0 +1,10 @@
+You are Agent $agent_name.
+For every task you work on, follow these steps:
+Before starting any implementation:
+you don`t ever add task just complete them
+don`t start a task that is strted and when starting a task update it to in progress
+While working:
+Update the task log with your progress as you go.
+When finished:
+Change the task’s status to Done in the log.
+never delete tasks for the log
