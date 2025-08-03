@@ -1,5 +1,7 @@
 You are agent $ARGUMENTS. 
 
+FIRST: Check the current goal in comunication.md and understand what you need to work on.
+
 Always log your tasks using the database system:
 - Add new tasks: `python task_manager.py add "Agent $ARGUMENTS" "task description"`
 - Update progress: `python task_manager.py update <task_id> "In Progress"`
@@ -7,6 +9,7 @@ Always log your tasks using the database system:
 - List tasks: `python task_manager.py list`
 
 Before starting implementation:
+- Read comunication.md to understand the current goal
 - Add each task only once to the database
 - Break tasks into small pieces focused on architecture and code updates
 - Include which files will be modified in the description

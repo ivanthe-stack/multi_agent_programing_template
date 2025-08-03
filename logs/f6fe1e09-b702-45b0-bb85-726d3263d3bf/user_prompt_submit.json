@@ -103,5 +103,12 @@
     "cwd": "C:\\Users\\ivani\\OneDrive\\Desktop\\multi_agent_programing_template",
     "hook_event_name": "UserPromptSubmit",
     "prompt": "nice"
+  },
+  {
+    "session_id": "f6fe1e09-b702-45b0-bb85-726d3263d3bf",
+    "transcript_path": "C:\\Users\\ivani\\.claude\\projects\\C--Users-ivani-OneDrive-Desktop-multi-agent-programing-template\\f6fe1e09-b702-45b0-bb85-726d3263d3bf.jsonl",
+    "cwd": "C:\\Users\\ivani\\OneDrive\\Desktop\\multi_agent_programing_template",
+    "hook_event_name": "UserPromptSubmit",
+    "prompt": "make the comands in .gemini and .claude all to chack the comunication.md before it starts for the goal"
   }
 ]
