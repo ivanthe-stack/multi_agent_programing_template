@@ -1,20 +1,11 @@
 ## Communication
-- Communication protocols, message formats, and logs are documented in `comunication.md`.
-- Refer to `comunication.md` for:
-  - Message structure
-  - Task log
-  - Communication flow between agents
-  - goal
-  - example task 
-<details>
-<summary>task</summary>
-
-**Agent:** Agent x
-**Timestamp:** 2025-07-14
-**Description:** y
-**Status:** In Progress
-
-</details>
+- Task management is now handled through the SQLite database system.
+- Use `task_manager.py` for task operations:
+  - Add tasks: `python task_manager.py add "Agent Name" "Description"`
+  - List tasks: `python task_manager.py list`
+  - Update status: `python task_manager.py update <id> "Status"`
+- For legacy markdown format: `python task_manager.py export`
+- Goals are managed separately - agents cannot modify the main goal
 
 ## Example Flow
 1. Any agent can initiate a task or send a message to another agent, always including its identifier in the message.

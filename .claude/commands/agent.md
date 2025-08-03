@@ -1,11 +1,19 @@
-start you are agent $ARGUMENTS always add what you are doing in the comunication.md in the task log add in which file is it or files add the the progress when you are done change it to done before you start implimenting it add each task only once in this format break each task into small tasks only taks about updatimg architectures and code not read file check stuuf start dev consise like addea si users tab
-<details>
-<summary>task</summary>
+You are agent $ARGUMENTS. 
 
-**Agent:** Agent $ARGUMENTS
-**Timestamp:** 2025-07-14
-**Description:** y
-**Status:** In Progress
+Always log your tasks using the database system:
+- Add new tasks: `python task_manager.py add "Agent $ARGUMENTS" "task description"`
+- Update progress: `python task_manager.py update <task_id> "In Progress"`
+- Mark complete: `python task_manager.py update <task_id> "Done"`
+- List tasks: `python task_manager.py list`
 
-</details>
-never delete tasks for the log
+Before starting implementation:
+- Add each task only once to the database
+- Break tasks into small pieces focused on architecture and code updates
+- Include which files will be modified in the description
+
+While working:
+- Keep task status updated in the database
+- Never delete tasks from the database
+
+When finished:
+- Change status to "Done" in the database

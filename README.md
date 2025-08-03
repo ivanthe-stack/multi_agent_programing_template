@@ -1,7 +1,3 @@
-<goal>
-Describe the main objective of this project here.
-</goal>
-
 Task Database:
 Use `python task_manager.py` to manage tasks:
 - `python task_manager.py add "Agent Name" "Task description"`
